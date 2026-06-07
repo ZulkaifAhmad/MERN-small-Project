@@ -1,0 +1,110 @@
+.create-post-container {
+max-width: 500px;
+margin: 50px auto;
+padding: 20px;
+border: 1px solid #ddd;
+border-radius: 8px;
+background-color: #f9f9f9;
+font-family: Arial, sans-serif;
+}
+
+.create-post-container h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.create-post-container form div {
+margin-bottom: 15px;
+display: flex;
+flex-direction: column;
+}
+
+.create-post-container label {
+margin-bottom: 5px;
+font-weight: bold;
+}
+
+.create-post-container input[type="text"],
+.create-post-container input[type="file"] {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.create-post-container input[type="text"]:focus {
+border-color: #007bff;
+outline: none;
+}
+
+.create-post-container button {
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: #007bff;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+.create-post-container button:hover {
+background-color: #0056b3;
+}
+
+
+/* Main page container */
+.app-container {
+max-width: 800px;
+margin: 40px auto;
+padding: 20px;
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: #f5f7fb;
+}
+
+/* Heading */
+.app-container h1 {
+margin-bottom: 20px;
+color: #333;
+}
+
+/* Button */
+.app-container button {
+padding: 10px 20px;
+background-color: #007bff;
+border: none;
+border-radius: 6px;
+color: white;
+font-size: 16px;
+cursor: pointer;
+margin-bottom: 30px;
+transition: 0.3s ease;
+}
+
+.app-container button:hover {
+background-color: #0056b3;
+}
+
+/* Post card */
+.post-card {
+background-color: white;
+border-radius: 10px;
+padding: 15px;
+margin-bottom: 20px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+text-align: left;
+}
+
+/* Post text */
+.post-card p {
+font-size: 16px;
+color: #444;
+margin-bottom: 10px;
+}
+
+/* Post image */
+.post-card img {
+width: 100%;
+max-height: 300px;
+object-fit: cover;
+border-radius: 8px;
+}
