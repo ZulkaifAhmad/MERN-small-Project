@@ -8,6 +8,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors());
+app.use(express.static("public"));
 
 env.config();
 dbConnect(process.env.MONGODB_URL);
